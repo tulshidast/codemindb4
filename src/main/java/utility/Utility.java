@@ -35,9 +35,8 @@ public class Utility {
 	}
 
 	public static List<String> readExcel() throws IOException {
-		// Changes in this file
-		File file1 = new File("src/test/resources/testDataExcel.xls");
-		FileInputStream fileInputStream = new FileInputStream(file1);
+		File file = new File("src/test/resources/testDataExcel.xls");
+		FileInputStream fileInputStream = new FileInputStream(file);
 		// if we have xlsx replace HSSF with XSSF
 		HSSFWorkbook hssfWorkbook = new HSSFWorkbook(fileInputStream);
 		HSSFSheet hssfSheet = hssfWorkbook.getSheetAt(0);
