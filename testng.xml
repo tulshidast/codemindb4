@@ -5,9 +5,9 @@
 		<run>
 		</run>
 	</groups>
-	<listeners>
+	<!-- <listeners>
 		<listener class-name="utility.Listner"></listener>
-	</listeners>
+	</listeners> -->
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="testcases.LoginTestCase" />

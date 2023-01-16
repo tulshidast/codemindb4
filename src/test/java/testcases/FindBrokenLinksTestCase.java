@@ -17,6 +17,8 @@ import org.testng.annotations.Test;
 
 import utility.Utility;
 
+
+
 public class FindBrokenLinksTestCase {
 
 	WebDriver driver;
@@ -28,8 +30,6 @@ public class FindBrokenLinksTestCase {
 		driver = utility.getWebDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
-		String a="abc";
-		a.charAt(10);
 	}
 
 	@Test

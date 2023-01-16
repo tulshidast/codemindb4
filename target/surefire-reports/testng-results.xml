@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39069" started-at="2023-01-16T02:17:02Z" finished-at="2023-01-16T02:17:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39069" started-at="2023-01-16T02:17:02Z" finished-at="2023-01-16T02:17:41Z">
+      <class name="testcases.LoginTestCase">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:testcases.LoginTestCase@475530b9]" name="initilization" is-config="true" duration-ms="13210" started-at="2023-01-16T07:47:03Z" finished-at="2023-01-16T07:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="verifyLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestCase@475530b9]" name="verifyLogOut" duration-ms="9447" started-at="2023-01-16T07:47:16Z" data-provider="dataProvider" finished-at="2023-01-16T07:47:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOut -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@475530b9]" name="tearDown" is-config="true" duration-ms="1033" started-at="2023-01-16T07:47:25Z" finished-at="2023-01-16T07:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogOut status=SUCCESS method=LoginTestCase.verifyLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestCase@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initilization()[pri:0, instance:testcases.LoginTestCase@475530b9]" name="initilization" is-config="true" duration-ms="9541" started-at="2023-01-16T07:47:26Z" finished-at="2023-01-16T07:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:testcases.LoginTestCase@475530b9]" name="verifyValidLogin" duration-ms="4366" started-at="2023-01-16T07:47:36Z" finished-at="2023-01-16T07:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@475530b9]" name="tearDown" is-config="true" duration-ms="840" started-at="2023-01-16T07:47:40Z" finished-at="2023-01-16T07:47:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTestCase.verifyValidLogin()[pri:0, instance:testcases.LoginTestCase@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTestCase -->
+      <class name="testcases.VerifyExcel">
+        <test-method status="PASS" signature="readExcelFile()[pri:0, instance:testcases.VerifyExcel@1d057a39]" name="readExcelFile" duration-ms="11" started-at="2023-01-16T07:47:41Z" finished-at="2023-01-16T07:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelFile -->
+      </class> <!-- testcases.VerifyExcel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="66394" started-at="2023-01-16T02:17:41Z" finished-at="2023-01-16T02:18:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66394" started-at="2023-01-16T02:17:41Z" finished-at="2023-01-16T02:18:48Z">
+      <class name="testcases.FindBrokenLinksTestCase">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:testcases.FindBrokenLinksTestCase@1e88b3c]" name="initilize" is-config="true" duration-ms="6978" started-at="2023-01-16T07:47:41Z" finished-at="2023-01-16T07:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="brokenLinks()[pri:0, instance:testcases.FindBrokenLinksTestCase@1e88b3c]" name="brokenLinks" duration-ms="15601" started-at="2023-01-16T07:47:48Z" finished-at="2023-01-16T07:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinks -->
+      </class> <!-- testcases.FindBrokenLinksTestCase -->
+      <class name="testcases.LoginTestCase">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:testcases.LoginTestCase@42d80b78]" name="initilization" is-config="true" duration-ms="16592" started-at="2023-01-16T07:48:04Z" finished-at="2023-01-16T07:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="verifyLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestCase@42d80b78]" name="verifyLogOut" duration-ms="11033" started-at="2023-01-16T07:48:20Z" data-provider="dataProvider" finished-at="2023-01-16T07:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOut -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@42d80b78]" name="tearDown" is-config="true" duration-ms="783" started-at="2023-01-16T07:48:31Z" finished-at="2023-01-16T07:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogOut status=SUCCESS method=LoginTestCase.verifyLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestCase@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initilization()[pri:0, instance:testcases.LoginTestCase@42d80b78]" name="initilization" is-config="true" duration-ms="9111" started-at="2023-01-16T07:48:32Z" finished-at="2023-01-16T07:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:testcases.LoginTestCase@42d80b78]" name="verifyValidLogin" duration-ms="5446" started-at="2023-01-16T07:48:41Z" finished-at="2023-01-16T07:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@42d80b78]" name="tearDown" is-config="true" duration-ms="837" started-at="2023-01-16T07:48:47Z" finished-at="2023-01-16T07:48:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTestCase.verifyValidLogin()[pri:0, instance:testcases.LoginTestCase@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTestCase -->
+      <class name="testcases.VerifyExcel">
+        <test-method status="PASS" signature="readExcelFile()[pri:0, instance:testcases.VerifyExcel@3bfdc050]" name="readExcelFile" duration-ms="4" started-at="2023-01-16T07:48:48Z" finished-at="2023-01-16T07:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelFile -->
+      </class> <!-- testcases.VerifyExcel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
